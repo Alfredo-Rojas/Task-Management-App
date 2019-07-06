@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/signin', (req, res) => {
+router.get('/users/signin', (req, res) => {
   res.send('Sing in to the app'); 
 });
 
-router.get('/signout', (req, res) => {
+router.get('/users/signout', (req, res) => {
   res.send('Sign out!');
 });
 
